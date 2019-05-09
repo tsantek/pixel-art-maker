@@ -8,7 +8,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <!-- CSS  -->
+    <link rel="stylesheet" href="main.css">
     <title>Pixel Art Maker</title>
 </head>
 
@@ -23,18 +24,38 @@
         </nav>
         <!-- End Navigation -->
     </header>
-    <!-- End Headr -->
+    <!-- End Header -->
+    <!-- Main element with Wrapper for pixels -->
     <main>
+        <ul class="pallet-colors col-12" id="colors">
+            <li class="select-color-text"> SELECT COLOR</li>
+            <li class="btn paint" style='background: maroon; color: white'>Maroon</li>
+            <li class="btn paint" style='background: red;'>Red</li>
+            <li class="btn paint" style='background: orange;'>Orange</li>
+            <li class="btn paint" style='background: yellow;'>Yellow</li>
+            <li class="btn paint" style='background: blue; color: white'>Blue</li>
+            <li class="btn paint" style='background: navy; color: white'>Navy</li>
+            <li class="btn paint" style='background: green'>Green</li>
+            <li class="btn paint" style='border: solid 1px black'>White</li>
+            <li class="btn paint" style='background: grey'>Grey</li>
+            <li class="btn paint" style='background: black; color: white'>Black</li>
+            <li><button class="btn" id="clearButton">Clear</button></li>
+        </ul>
 
-        <div id="wrapper">
-            <!-- pixels populate here -->
+        <div class="col-12" id="canvas">
+            <!-- canvas populate here -->
         </div>
 
+
     </main>
+    <!-- End Main -->
+    <!-- Footer -->
     <footer>
 
     </footer>
+    <!-- End Footer -->
     <!-- Optional JavaScript -->
+    <script src="main.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
