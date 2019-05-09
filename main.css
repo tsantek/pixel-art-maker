@@ -3,8 +3,17 @@
 
 /* MAIN */
 
+main {}
+
 
 /* pallet collors  */
+
+.paint {
+    width: 80px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
 
 .pallet-colors {
     list-style: none;
@@ -18,4 +27,13 @@
 
 .select-color-text {
     border: none;
+}
+
+
+/* CANVAS */
+
+.grid {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
 }
