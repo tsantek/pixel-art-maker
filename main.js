@@ -9,12 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let color = "white";
 
 
-    var isDown = false;
-
-
     selectedColor.style.backgroundColor = color;
 
-    console.log(canvas)
 
     //COLOR LOOP AND SELECTING COLOR 
     for (var i = 0; i < colorSelector.length; i++) {
@@ -24,9 +20,6 @@ document.addEventListener('DOMContentLoaded', function() {
         })
     }
 
-
-
-
     // CANVAS LOOP AND SELECTING DIV
     for (var i = 0; i < canvas.length; i++) {
         canvas[i].addEventListener("click", function(e) {
@@ -35,7 +28,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         })
     }
-
 
 
     // CLEAR CANVAS
